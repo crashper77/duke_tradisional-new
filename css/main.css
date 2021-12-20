@@ -40,10 +40,15 @@ body {
       @media (max-width: 576px) {
         .ww-home-page .ww-wedding-announcement .ww-couple-name {
           font-size: 50px; } }
-    .ww-home-page .ww-wedding-announcement .text-center {
-      padding-bottom: 30px;
-      margin-bottom: 50px;
-    }
+    .img-bottom {
+      padding-top: 30px;
+      margin-bottom: 120px; }
+      @media (max-width: 576px) {
+        .img-bottom {
+          padding-top: 80px;
+          margin-bottom: 50px;
+        }
+      }
 
 .ww-home-page:before {
   content: "";
@@ -586,13 +591,13 @@ body {
   border: none;
   border-radius: 50px;
   outline: none;
-  background-color: #684C41;
+  background-color: #D3A412;
   color: white;
   cursor: pointer;
 }
 
 #btn-play:hover {
-  background-color: #A7936D;
+  background-color: #8a7022;
 }
 
 #btn-pause {
@@ -607,13 +612,13 @@ body {
   border: none;
   border-radius: 50px;
   outline: none;
-  background-color: #684C41;
+  background-color: #D3A412;
   color: white;
   cursor: pointer;
 }
 
 #btn-play:hover {
-  background-color: #A7936D;
+  background-color: #8a7022;
 }
 
 #rsvp {
